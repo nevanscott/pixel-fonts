@@ -1,0 +1,72 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.artboard .row {
+  display: flex;
+}
+
+.artboard .cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #0001;
+  border-radius: 2px;
+  margin: 0 1px 1px 0;
+}
+
+.artboard .cell--on {
+  background-color: #000C;
+  border-color: #000F;
+}
+
+.chooser {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.chooser .char {
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid black;
+  margin: 0 1px 1px 0;
+  text-align: center;
+}
+
+.sample {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: monospace;
+}
+
+.sample .char {
+  font-size: 12px;
+  height: 12px;
+  width: 8px;
+  text-align: center;
+  color: #0003;
+}
+
+.sample .row {
+  display: flex;
+}
+
+.sample .cell {
+  width: 1px;
+  height: 1px;
+}
+
+.sample .cell--on {
+  background: black;
+}
